@@ -1,0 +1,8 @@
+---
+- hosts: demo
+  user: ansible
+  become: yes
+  connection: ssh
+  tasks: 
+    - name: run httpd
+      action: yum name=httpd state=latest
