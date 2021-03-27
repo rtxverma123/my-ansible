@@ -3,6 +3,8 @@
   user: ansible
   become: yes
   connection: ssh
+  vars_files:
+    - secret
   tasks: 
     - name: run httpd
       action: yum name=httpd state=latest
