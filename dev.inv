@@ -1,3 +1,3 @@
 [demo]
-3.143.17.161
-3.22.241.171
+ansible@3.143.17.161 ansible_sudo_pass='test'
+ansible@3.22.241.171 ansible_sudo_pass='test'
