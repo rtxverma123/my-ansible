@@ -1,3 +1,3 @@
 [demo]
-3.143.17.161 ansible_user=ansible
-3.22.241.171 ansible_user=ansible
+ansible@3.143.17.161 password=test
+ansible@3.22.241.171 password=test
