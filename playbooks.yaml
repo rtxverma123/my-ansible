@@ -3,6 +3,10 @@
   user: ansible
   become: yes
   connection: ssh
+  vars:
+    ansible_password: 'test'
   tasks: 
-    - name: run httpd
-      action: yum name=httpd state=latest
+    - name: run apache2
+      apt:
+        name: apache2
+        state: present
